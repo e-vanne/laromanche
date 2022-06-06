@@ -1,0 +1,638 @@
+    1  sudo gedit /usr/share/X11/xkb/symbols/ru
+    2  kedit
+    3  sudo xed /usr/share/X11/xkb/symbols/ru
+    4  sudo apt install simplescreenrecorder 
+    5  ls
+    6  cd Downloads/
+    7  ls
+    8  cat  73065_000AI.csv 
+    9  cat  73065_000BZ.csv 
+   10  cat  73065_000CM.csv 
+   11  cd 
+   12  cd Downloads/
+   13  meld
+   14  sudo apt install meld
+   15  cat export.csv 
+   16  cat export_fr.csv 
+   17  vim export.csv 
+   18  vi export.csv 
+   19  vim export_fr.csv 
+   20  vim export.csv 
+   21  vim export_fr.csv 
+   22  cd Documents/work/
+   23  git clone https://github.com/georchestra/georchestra.git
+   24  git branch
+   25  cd georchestra/
+   26  git branch
+   27  flatpak
+   28  ls /var/run/docker/
+   29  sudo ls /var/run/docker/
+   30  sudo ls /var/run
+   31  chown +X $USER /var/run/docker.sock 
+   32  chown +x $USER /var/run/docker.sock 
+   33  sudo chown $USER /var/run/docker.sock 
+   34  cat /etc/hosts
+   35  vim /etc/hosts
+   36  sudo apt install vim
+   37  vim /etc/hosts
+   38  sudo vim /etc/hosts
+   39  sudo apt install vim
+   40  docker ps
+   41  docker stop cc007633a2a7
+   42  docker rm cc007633a2a7
+   43  docker run cc007633a2a7
+   44  docker run --rm georchestra/console:latest
+   45  docker ps
+   46  docker images
+   47  ls
+   48  cat Makefile 
+   49  history
+   50  docker-build-console
+   51  make docker-build-console
+   52  ./mvnw make docker-build-console
+   53  ls
+   54  git branch 
+   55  git submodule init --force-recursive
+   56  git submodule init foreach --force-recursive
+   57  git submodule init
+   58  ./mvnw make docker-build-console
+   59  git submodule foreach --recursive 
+   60  ./mvnw make docker-build-console
+   61  ./mvnw make docker-build
+   62  git la
+   63  ls
+   64  ls Documents/
+   65  mkdir Documents/work
+   66  sudo apt-get install openjdk-8-jdk
+   67  java --version
+   68  sudo update-alternatives --config java
+   69  git
+   70  sudo apt install git
+   71  sudo apt install docker docker-compose 
+   72  cd Documents/work/
+   73  git clone https://github.com/georchestra/docker.git
+   74  ls
+   75  cd docker/
+   76  ls
+   77  ls -a
+   78  git branch
+   79  free -m
+   80  inxi
+   81  inxi -Fxz
+   82  wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/vscodium.gpg 
+   83  echo 'deb https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list 
+   84  sudo apt update && sudo apt install codium 
+   85  docker-compose up
+   86  ls
+   87  docker-init
+   88  docker-compose 
+   89  docker-compose up
+   90  docker --version
+   91  docker-compose --version
+   92  sudo apt-get remove docker-compose --help
+   93  sudo apt-get remove docker-compose 
+   94  sudo apt-get install docker-compose 
+   95  sudo docker-compose up
+   96  git submodule update --init --recursive
+   97  sudo docker-compose up
+   98  docker-compose up
+   99  docker-compose build 
+  100  docker-compose build --help
+  101  docker-compose build georchestra/console 
+  102  docker-compose build console 
+  103  docker-compose build console --no-cache
+  104  docker-compose build --no-cache console
+  105  ls
+  106  cd Documents/
+  107  ls
+  108  cd work/georchestra/
+  109  git branches
+  110  git branche
+  111  git branch
+  112  git branch -l
+  113  git branch -ls
+  114  git branch -la
+  115  lsb_release
+  116  echo $XDG_CURRENT_DESKTOP
+  117  lsb_release -a
+  118  sudo apt update
+  119  sudo apt install task-xfce-desktop
+  120  sudo apt install xfce4
+  121  sudo systemctl set-default graphical.target
+  122  xfce4
+  123  xfce4-panel-start 
+  124  xfce4-appfinder 
+  125  sh start.sh 
+  126  pdftk
+  127  sudo apt install pdftk
+  128  pdftk
+  129  poppler
+  130  poppler-utils
+  131  sudo apt-get install poppler-utils
+  132  pdf 
+  133  pdf unite
+  134  pdfunite
+  135  unzip *
+  136  unzip *.zip
+  137  ls
+  138  unzip
+  139  unzip "*.zip"
+  140  ls
+  141  rm *.zip
+  142  ls
+  143  pdftk *.pdf cat output all_pages.pdf
+  144  ls
+  145  unzip "*.zip"
+  146  rm *.zip
+  147  unzip "*.zip"
+  148  rm *.zip
+  149  unzip "*.zip"
+  150  pdftk *.pdf cat output add_pages.df
+  151  pdftk *.pdf cat output add_pages.pdf
+  152  rm add_pages.df 
+  153  cd ..
+  154  mkdir 0-50
+  155  mkdir 50-100
+  156  mkdir 100-150
+  157  mkdir 150-200
+  158  mkdir 200-250
+  159  mkdir 250-end
+  160  ls
+  161  cd 0-50/
+  162  pdftk *.pdf cat output 0-49.pdf
+  163  cd ../50-100/
+  164  pdftk *.pdf cat output 50-99.pdf
+  165  cd ../100-150/
+  166  pdftk *.pdf cat output 100-149.pdf
+  167  cd ../150-200/
+  168  pdftk *.pdf cat output 150-199.pdf
+  169  cd ../200-250/
+  170  pdftk *.pdf cat output 200-249.pdf
+  171  cd ../250-end/
+  172  pdftk *.pdf cat output 250-end.pdf
+  173  cd ..
+  174  cp 0-50/0-49.pdf .
+  175  cp 100-150/100-149.pdf .
+  176  cp 50-100/50-99.pdf .
+  177  cp 150-200/150-199.pdf .
+  178  cp 200-250/200-249.pdf .
+  179  cp 250-end/250-end.pdf .
+  180  gs
+  181  ls
+  182  cd ..
+  183  ls bd/
+  184  cp bd/0-49.pdf .
+  185  gs     -o left-sections.pdf     -sDEVICE=pdfwrite     -g4210x5950     -c "<</PageOffset [0 0]>> setpagedevice"     -f 0-49.pdf
+  186  ls
+  187  ps aux
+  188  sudo groupadd docker
+  189  sudo usermod -aG docker $USER
+  190  ls
+  191  ls Documents/
+  192  mkdir Workspaces
+  193  cd Workspaces/
+  194  git clone --recurse-submodules https://github.com/georchestra/docker.git
+  195  cd docker/
+  196  ls
+  197  git 
+  198  cd ..
+  199  git clone https://github.com/geoserver/geofence.git
+  200  git clone --recurse-submodules https://github.com/georchestra/georchestra.git
+  201  docker-compose 
+  202  cd docker/
+  203  docker-compose up
+  204  docker run
+  205  cd ../../Worspaces/mapstore2-georchestra/
+  206  ls
+  207  docker run 
+  208  docker build 
+  209  docker create 
+  210  docker build Dockerfile
+  211  docker build .
+  212  sudo docker build .
+  213  docker
+  214  docker-compose 
+  215  snap
+  216  sudo apt install snapd
+  217  sudo rm /etc/apt/preferences.d/nosnap.pref 
+  218  sudo apt update
+  219  sudo apt install snapd
+  220  sudo snap install intellij
+  221  sudo snap install hello-world
+  222  hello-world
+  223  sudo snap remove hello-world 
+  224  snap
+  225  snap find intellij
+  226  sudo snap install intellij-idea-community
+  227  sudo snap install intellij-idea-community --classic
+  228  intellij-idea-community 
+  229  ls
+  230  cd Worspaces/mapstore2-georchestra/
+  231  docker build .
+  232  ls -l ~/.docker/
+  233  ls -la ~/.docker/
+  234  ls -la ~/
+  235  sudo rm -rf ~/.docker/
+  236  docker run hello-world
+  237  docker run --help
+  238  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  239  sudo docker run hello-world
+  240  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+  241  ls -last /var/run/docker.sock 
+  242  cat /etc/group | grep docker
+  243  sudo setfacl --modify user:$USER:rw /var/run/docker.sock
+  244  docker run hello-world
+  245  docker-compose run hello-world
+  246  docker-compose up
+  247  cd ../..
+  248  ls 
+  249  rm -rf Worspaces/
+  250  sudo rm -rf Worspaces/
+  251  cd Workspaces/docker/
+  252  docker-compose up
+  253  docker-compose down
+  254  sudo apt install chromium
+  255  docker-compose down
+  256  docker-compose down --remove-orphans
+  257  ps -aux
+  258  ps kill 85054
+  259  ps --kill 85054
+  260  ps --help
+  261  ps --help kill
+  262  man ps
+  263  kill 85054
+  264  ps aux
+  265  update-alternatives 
+  266  update-alternatives --all
+  267  update-alternatives --java
+  268  update-alternatives --config
+  269  update-alternatives --config java
+  270  update-alternatives --config jdk
+  271  jdk
+  272  java
+  273  java -v
+  274  java -version
+  275  cat Workspaces/docker/docker-compose.yml 
+  276  ffhhhg fjfjjjg kkkjjkj 
+  277  history
+  278  ps -aux
+  279  ls -la
+  280  cd Workspaces/
+  281  code MapStoreExtension/ mapstore2-cadastrapp/ drealcorse-reports/
+  282  cd drealcorse-reports/
+  283  npm start
+  284  cd ../MapStoreExtension/
+  285  npm start
+  286  netstat -tlnp | grep 8080
+  287  netstat -tlnp | grep 8081
+  288  docker ps
+  289  cd ../drealcorse-reports/
+  290  make cleanall 
+  291  sudo apt-get nvidia-optimus
+  292  snap install nvidia
+  293  nvidia-optimus-offload-glx
+  294  nvidia-settings 
+  295  nvidia-detector 
+  296  nvidia-ngx-updater 
+  297  nvidia-debugdump 
+  298  nvidia-settings 
+  299  sudo apt install nvidia-prime
+  300  sudo prime-select nvidia
+  301  git clone git@github.com:camptocamp/georchestra-functional-tests.git
+  302  cd georchestra-functional-tests/
+  303  git clone git@github.com:camptocamp/drealcorse-mapstoreextension.git
+  304  npm install
+  305  ls
+  306  cd drealcorse-mapstoreextension/
+  307  npm install
+  308  npm start
+  309  cd ../..
+  310  rm -rf georchestra-functional-tests
+  311  git clone git@github.com:camptocamp/drealcorse-reports.git
+  312  cd drealcorse-reports/
+  313  docker-compose up
+  314  sudo docker-compose up
+  315  sudo apt install docker
+  316  echo $DOCKER_BASE
+  317  cd ..
+  318  ls
+  319  mv drealcorse-reports/ Documents/
+  320  cd Documents/
+  321  git clone git@github.com:cityjson/specs.git
+  322  ls
+  323  cd specs/
+  324  ls
+  325  xed
+  326  sudo apt install omegat 
+  327  ./configure
+  328  intltool
+  329  dpkg
+  330  dpkg --help
+  331  dpkg --info intltool
+  332  apt get intltool
+  333  apt install intltool
+  334  ./configure
+  335  # sudo apt install gtk-doc-tools docbook-xsl yelp-tools libpng-dev libgtk-3-dev libicu-dev libjson-glib-dev
+  336  sudo apt install gtk-doc-tools docbook-xsl yelp-tools libpng-dev libgtk-3-dev libicu-dev libjson-glib-dev
+  337  sudo apt-get install libcurl4-gnutls-dev libglib2.0-dev-bin
+  338  $ sudo apt-get install libsqlite3-dev nettle-dev libmapnik-dev libgeoclue-2-dev libgexiv2-dev libgps-dev libmagic-dev libbz2-dev libzip-dev liboauth-dev
+  339  sudo apt-get install libsqlite3-dev nettle-dev libmapnik-dev libgeoclue-2-dev libgexiv2-dev libgps-dev libmagic-dev libbz2-dev libzip-dev liboauth-dev
+  340  ./configure
+  341  make
+  342  sudo make install
+  343  viking
+  344  ./start.sh
+  345  chmod +x start.sh 
+  346  ./start.sh
+  347  sudo apt install libxcb-xinerama0
+  348  tar xjf Downloads/anki-2.1.46-linux.tar.bz2
+  349  ls
+  350  ca anki-2.1.46-linux/
+  351  sudo ./install.sh
+  352  cd anki-2.1.46-linux/
+  353  sudo ./install.sh
+  354  anki
+  355  apt -v autoconf
+  356  apt version autoconf
+  357  sudo apt install patch wget unzip cmake luarocks nasm ragel gcc clang
+  358  sudo apt-get install build-essential git patch wget unzip gettext autoconf automake cmake libtool nasm ragel luarocks lua5.1 libsdl2-dev libssl-dev libffi-dev libsdl2-dev libc6-dev-i386 xutils-dev linux-libc-dev:i386 zlib1g:i386
+  359  meld koreader.app dd/koreader.app 
+  360  ls
+  361  cd Documents/
+  362  ls
+  363  mkdir koreader
+  364  cd koreader/
+  365  ls
+  366  git clone https://github.com/koreader/koreader.git
+  367  cd koreader/
+  368  ./kodev fetch-thirdparty
+  369  ./kodev build
+  370  flatpak
+  371  flatpak install puremaps
+  372  puremaps
+  373  p
+  374  sh XMT2_Linux_20.7.28.sh 
+  375  sh MiUnlockTool.sh 
+  376  ./MiUnlockTool.sh 
+  377  sudo su
+  378  sudo apt install wine
+  379  wine
+  380  cd Downloads/
+  381  ls
+  382  cd miflash_unlock-en-5.5.224.24/
+  383  ls
+  384  wine batch_unlock.exe 
+  385  sudo wine miflash_unlock.exe 
+  386  sudo wine driver_install_64.exe 
+  387  sudo wine fastboot.exe 
+  388  sudo wine miflash_unlock.exe 
+  389  sudo apt remove wine
+  390  sudo dpkg --add-architecture i386 
+  391  wget -nc https://dl.winehq.org/wine-builds/winehq.key
+  392  sudo apt-key add winehq.key
+  393  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' 
+  394  sudo apt update
+  395  sudo apt install --install-recommends winehq-stable
+  396  sudo wine miflash_unlock.exe 
+  397  wine batch_unlock.exe 
+  398  ps -aux
+  399  sudo su
+  400  ls
+  401  rm -rf @De\ Boeck\ Superieur/
+  402  sudo rm -rf @De\ Boeck\ Superieur/
+  403  calibre
+  404  wine
+  405  sudo wine --help
+  406  sudo wine calibre
+  407  calibre --uninstall
+  408  calibre uninstall
+  409  apt version calibre
+  410  calibre --help
+  411  calibre --version 
+  412  sudo apt-get install calibre
+  413  cd ~/Downloads/
+  414  wget http://download.epubee.com/ePUBeeePUBDRMRemoval.exe
+  415  echo $WINEPREFIX
+  416  echo WINEPREFIX
+  417  cd ..
+  418  ls -la | grep wine
+  419  ls -la .wine/
+  420  apt-cache showpkg calibre
+  421  calibre --version 
+  422  sudo apt-get remove calibre
+  423  calibre --version 
+  424  calibre
+  425  snap
+  426  snap find calibre
+  427  ls -la
+  428  ls -la .wine/
+  429  ls -la .wine/dosdevices/
+  430  ls .wine/drive_c/users/ivanne/Local\ Settings/Application\ Data/Programs/Python/Python39-32/DLLs/libcrypto-1_1.dll 
+  431  pwd
+  432  sh calibre
+  433  ./calibre
+  434  winetricks
+  435  sudo apt install winetricks
+  436  winetricks
+  437  cd ~/Downloads/
+  438  sudo apt-get install calibre
+  439  cd
+  440  ls -la
+  441  ls -la .wine32/
+  442  calibre --version 
+  443  winetricks msiexec /i ~/Downloads/python-2.7.18.msi
+  444  WINEPREFIX="$HOME/.wine" wine msiexec /i ~/Downloads/python-2.7.18.msi
+  445  wine
+  446  wine msiexec
+  447  ls -la ~/Downloads/
+  448  wine msiexec
+  449  WINEPREFIX="$HOME/.wine" wine msiexec /i ~/Downloads/python-2.7.18.msi
+  450  rm -r -f ~/.wine
+  451  WINEARCH=win32 WINEPREFIX=~/.wine wine wineboot
+  452  ls -la | grep wine
+  453  ls -la .wine
+  454  rm -r -f .wine32/
+  455  ls -la ~/Downloads
+  456  wine msiexec /i ~/Downloads/python-2.7.18.msi
+  457  wine msiexec
+  458  WINEPREFIX="$HOME/.wine" winetricks
+  459  py
+  460  python
+  461  python3
+  462  WINEPREFIX="$HOME/.wine" winetricks python
+  463  WINEPREFIX="$HOME/.wine" wine pip install pycrypto
+  464  WINEPREFIX="$HOME/.wine" wine pycrypto
+  465  pwd
+  466  WINEPREFIX="$HOME/.wine" winetricks 
+  467  WINEPREFIX="$HOME/.wine" wine cmd /c ~/Downloads/python-3.9.9.exe 
+  468  winetricks
+  469  WINEPREFIX="$HOME/.wine" wine cmd /c ~/Downloads/python-3.9.9.exe 
+  470  WINEPREFIX="$HOME/.wine" wine cmd /c ~/Downloads/
+  471  WINEPREFIX="$HOME/.wine" wine pip install pyOpenSSL
+  472  WINEPREFIX="$HOME/.wine" wine cmd /c ~/Downloads/calibre-5.32.0.msi 
+  473  WINEPREFIX="$HOME/.wine" wine msiexec /i ~/Downloads/calibre-5.32.0.msi 
+  474  WINEPREFIX="$HOME/.wine" wine 
+  475  WINEPREFIX="$HOME/.wine" wine --version
+  476  WINEPREFIX="$HOME/.wine" wine msiexec /i ~/Downloads/calibre-5.32.0.msi 
+  477  WINEPREFIX="$HOME/.wine" wine calibre
+  478  ls -la .config/calibre/plugins/DeDRM/libraryfiles/adobekey.py 
+  479  sudo xed .config/calibre/plugins/DeDRM/libraryfiles/adobekey.py 
+  480  ./calibre
+  481  efibootmgr -v
+  482  sudo efibootmgr -v
+  483  sudo snap install okular
+  484  nautilus -q
+  485  sudo apt install nautilus
+  486  nautilus -q
+  487  ssh-add ~/.ssh/id_ed25519
+  488  ssh-add ~/.ssh/id_ed25519_2
+  489  ls 
+  490  ls  ~/.ssh
+  491  brew install hugo
+  492  sudo apt install hugo
+  493  hugo version
+  494  git --version
+  495  ls
+  496  cd Documents/
+  497  ls
+  498  cd work/
+  499  ls
+  500  cd ..
+  501  mkdir maisonfam
+  502  cd maisonfam/
+  503  hugo new site laromanche
+  504  ls
+  505  cd laromanche/themes/
+  506  git clone https://github.com/janraasch/hugo-scroll
+  507  ls
+  508  ls hugo-scroll/
+  509  xed hugo-scroll/exampleSite/config.toml 
+  510  cd ..
+  511  ls
+  512  xed config.toml themes/hugo-scroll/exampleSite/config.toml 
+  513  hugo server
+  514  git
+  515  git remote add origin https://github.com/e-vanne/laromanche.git
+  516  git init
+  517  git remote add origin https://github.com/e-vanne/laromanche.git
+  518  git push -u origin master
+  519  git push -u origin 
+  520  git push --set-upstream origin master
+  521  git remote add origin https://github.com/e-vanne/laromanche.git
+  522  git branch -M main
+  523  git fetch git reset --hard origin/master 
+  524  git fetch git reset origin/master 
+  525  git
+  526  git log
+  527  git commit 
+  528  git config --global user.email "ivanne.sanchez@gmail.com"
+  529  git config --global user.name "e-vanne"
+  530  git commit 
+  531  git add .
+  532  git rm --cached themes/hugo-scroll
+  533  git rm -f --cached themes/hugo-scroll
+  534  git commit 
+  535  git log
+  536  git fetch git reset origin/master 
+  537  git remote add origin https://github.com/e-vanne/laromanche.git
+  538  git push
+  539  git push --set-upstream origin master
+  540  git remote add origin git@github.com:e-vanne/laromanche.git
+  541  git remote remove origin
+  542  git remote add origin git@github.com:e-vanne/laromanche.git
+  543  git push --set-upstream origin master
+  544  git config --show-origin --get credential.helper
+  545  ssh-add -D && ssh-add
+  546  git push --set-upstream origin master
+  547  cd ..
+  548  git clone git@github.com:e-vanne/e-vanne.github.io.git
+  549  ls
+  550  cd laromanche/
+  551  hugo -d ../e-vanne.github.io
+  552  cd ../e-vanne.github.io/
+  553  git add .
+  554  git commit -m "first commit"
+  555  git push -u origin master
+  556  history | grep "hugo -d"
+  557  history | grep hugo
+  558  history 
+  559  cd ../laromanche/
+  560  git add themes/hugo-scroll/
+  561  git submodule add <url> themes/hugo-scroll
+  562  git submodule add git@github.com:e-vanne/hugo-scroll.git themes/hugo-scroll
+  563  git rm -f --cached themes/hugo-scroll
+  564  git submodule add git@github.com:e-vanne/hugo-scroll.git themes/hugo-scroll
+  565  git add .
+  566  git commit
+  567  git push
+  568  cd ../e-vanne.github.io/
+  569  git diff
+  570  git add .
+  571  git commit
+  572  cd ../laromanche/
+  573  hugo -d ../e-vanne.github.io/
+  574  git add .
+  575  git commit
+  576  cd ../e-vanne.github.io/
+  577  git add .
+  578  git commit -m "apply adding theme submodule"
+  579  git push
+  580  history
+  581  cd
+  582  ls
+  583  ssh-keygen -t -rsa ed25519 -C "ivanne.sanchez@gmail.com"
+  584  ssh-keygen -t ed25519 -C "ivanne.sanchez@gmail.com"
+  585  ls -al ~/.ssh
+  586  ssh-keygen -t ed25519 -C "ivanne.sanchez@gmail.com"
+  587  ssh-keygen -y -f /tmp/my_key
+  588  ssh-keygen -y -f /home/ivanne/.ssh/id_ed25519
+  589  ssh-keygen -t ed25519 -C "ivanne.sanchez@gmail.com"
+  590  cat /home/ivanne/.ssh/id_ed25519.pub 
+  591  ssh-keygen -t ed25519 -C "ivanne.sanchez@gmail.com"
+  592  ssh-keygen -t ed255192 -C "ivanne.sanchez@gmail.com"
+  593  ssh-keygen -t rsa -b 4096 -C "ivanne.sanchez@gmail.com"
+  594  cat /home/ivanne/.ssh/id_rsa.pub 
+  595  ssh-add ~/.ssh/id_rsa
+  596  git diff
+  597  git add .
+  598  git commit
+  599  git push
+  600  hugo -d ../e-vanne.github.io
+  601  cd ../e-vanne.github.io/
+  602  git add .
+  603  git commit
+  604  git push
+  605  history
+  606  hugo server
+  607  cd Documents/maisonfam/laromanche/
+  608  hugo server
+  609  history
+  610  sudo apt-get install tex
+  611  sudo apt upgrade && sudo apt update && sudo apt upgrade
+  612  sudo apt update && sudo apt upgrade
+  613  sudo apt-get autoremove
+  614  sudo apt update && sudo apt upgrade
+  615  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5E3C45D7B312C643
+  616  sudo apt update && sudo apt upgrade
+  617  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DD3C368A8DE1B7A0
+  618  sudo apt update && sudo apt upgrade
+  619  sudo dpkg --configure -a
+  620  sudo apt --fix-broken install
+  621  sudo apt update && sudo apt upgrade
+  622  sudo apt-get install texmaker
+  623  git add .
+  624  git commit -m "pictures : set width"
+  625  git history
+  626  ls
+  627  git add .
+  628  git diff
+  629  git commit -m "pictures : set width"
+  630  git log
+  631  git log -p -2
+  632  git reset --hard 9ec04af71cf9a5149ae3d3403712e920a52d15d3
+  633  git diff
+  634  git add 
+  635  git add .
+  636  git push
+  637  history
+  638  history > githistory
