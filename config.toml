@@ -20,7 +20,7 @@ title = "Village Vacances Ternélia La Romanche"
     description = "Gîtes et maison familiale"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
-    favicon = "logo_ternelia.png"
+    favicon = "logo_photo2_photomeije.png"
 
     # These "images" are used for the structured data templates. This will show up, when
     # services like Twitter or Slack want to generate a preview of a link to your site.
