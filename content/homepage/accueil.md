@@ -14,5 +14,5 @@ Situé à flanc de montagne, sur la commune de La Grave, entre les Deux Alpes et
 
 
 
-| {{< figure src="images/accueil/hiver.jpg" width=300 >}} | {{< figure src="images/accueil/ete.jpg" width=200 >}} |
+| {{< figure src="images/accueil/hiver.jpg" width=300 >}} | {{< figure src="images/accueil/ete.jpg" width=300 >}} |
 | ----------- | ----------- |
